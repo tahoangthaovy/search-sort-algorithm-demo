@@ -1,0 +1,8 @@
+int linear_search(int a[], int n, int number) {
+        for (int i = 0; i < n; i++) {
+                int e = a[i];
+                if (e == number)
+                        return i;
+        }
+        return -1; 
+}
